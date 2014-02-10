@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/teamANameTxt"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/teamANameHint" />
+
+    <EditText
+        android:id="@+id/teamBNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="@string/teamBNameHint"/>
+
+    <TableLayout
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <TableRow
+            android1:id="@+id/tableRow1"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_weight="1" >
+
+            <TextView
+                android1:id="@+id/matchDurationLbl"
+                android1:layout_width="wrap_content"
+                android1:layout_height="match_parent"
+                android1:layout_marginLeft = "5dp"
+                android1:textSize = "16dp"
+                android1:gravity="center"
+                android1:text="@string/match_duration" />
+
+            <EditText
+                android1:id="@+id/matchDurationSeekBar"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:ems="10"
+                android1:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/teamADetailLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="81dp"
+        android:text="@string/teamA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/vsDetailLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamADetailLbl"
+        android:layout_below="@+id/teamADetailLbl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/vs"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/teamBDetailLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamADetailLbl"
+        android:layout_centerVertical="true"
+        android:text="@string/teamB"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/resultDetailLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vsDetailLbl"
+        android:layout_below="@+id/teamBDetailLbl"
+        android:layout_marginTop="49dp"
+        android:text="0-0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
