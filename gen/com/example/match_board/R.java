@@ -25,25 +25,26 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080013;
-        public static final int matchDurationLbl=0x7f080011;
-        public static final int matchDurationSeekBar=0x7f080012;
+        public static final int action_settings=0x7f080014;
+        public static final int matchDurationLbl=0x7f080012;
+        public static final int matchDurationSeekBar=0x7f080013;
         public static final int matchTimmer=0x7f080005;
+        public static final int match_details=0x7f08000a;
+        public static final int match_title=0x7f080009;
         public static final int pauseTimmerBtn=0x7f080008;
-        public static final int recentMatches=0x7f080009;
-        public static final int resultDetailLbl=0x7f08000d;
+        public static final int resultDetailLbl=0x7f08000e;
         public static final int scoreALbl=0x7f080006;
         public static final int scoreBLbl=0x7f080007;
         public static final int startBtn=0x7f080001;
-        public static final int tableRow1=0x7f080010;
+        public static final int tableRow1=0x7f080011;
         public static final int teamABtn=0x7f080003;
-        public static final int teamADetailLbl=0x7f08000a;
-        public static final int teamANameTxt=0x7f08000e;
+        public static final int teamADetailLbl=0x7f08000b;
+        public static final int teamANameTxt=0x7f08000f;
         public static final int teamBBtn=0x7f080004;
-        public static final int teamBDetailLbl=0x7f08000c;
-        public static final int teamBNameTxt=0x7f08000f;
-        public static final int timeWhenStoppedLbl=0x7f080014;
-        public static final int vsDetailLbl=0x7f08000b;
+        public static final int teamBDetailLbl=0x7f08000d;
+        public static final int teamBNameTxt=0x7f080010;
+        public static final int timeWhenStoppedLbl=0x7f080015;
+        public static final int vsDetailLbl=0x7f08000c;
         public static final int welcomeRelativeLayout=0x7f080000;
         public static final int winnerLbl=0x7f080002;
     }
@@ -52,6 +53,7 @@ public final class R {
         public static final int activity_match_list=0x7f030001;
         public static final int match_detail_fragment=0x7f030002;
         public static final int match_settings_dialog=0x7f030003;
+        public static final int match_title=0x7f030004;
     }
     public static final class menu {
         public static final int match_list=0x7f070000;

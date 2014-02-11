@@ -1,19 +1,22 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MatchList" >
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
 
-    <ListView
-        android:id="@+id/recentMatches"
-        android:layout_width="match_parent"
+    <fragment
+        android:id="@+id/match_title"
+        android:layout_width="0px"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentTop="false" >
-    </ListView>
+        android:layout_weight="1"
+        class="com.example.match_board.MatchTitleFragment" />
 
-</RelativeLayout>
+    <fragment
+        android:id="@+id/match_details"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        class="com.example.match_board.MatchDetailsFragment" />
+
+</LinearLayout>

@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class MathcDetailsFragment extends Fragment {
+public class MatchDetailsFragment extends Fragment {
 	private TextView teamNameALbl;
 	private TextView teamNameBLbl;
 	private TextView resultLbl;
@@ -24,6 +24,7 @@ public class MathcDetailsFragment extends Fragment {
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
+		super.onActivityCreated(savedInstanceState);
 		Activity a = getActivity();
 		teamNameALbl = (TextView) a.findViewById(R.id.teamADetailLbl);
 		teamNameBLbl = (TextView) a.findViewById(R.id.teamBDetailLbl);
